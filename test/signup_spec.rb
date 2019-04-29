@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'fabrication'
 
 RSpec.describe 'POST /signup', type: :request do
   let(:url) { '/signup' }

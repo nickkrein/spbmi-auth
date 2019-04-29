@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'fabrication'
 
 RSpec.describe 'POST /login', type: :request do
   let(:user) { Fabricate(:user) }
